@@ -1,0 +1,42 @@
+{
+    "base": [
+        {
+            "name": "epochs",
+            "_comment": " model training repeat times",
+            "type": "int",
+            "default": 50,
+            "min": 1,
+            "max": 99999,
+            "require": true
+        },
+        {
+            "name": "batch size",
+            "_comment": "",
+            "type": "int",
+            "default": 2,
+            "min": 1,
+            "max": 1024,
+            "require": true
+        },
+        {
+            "name": "lr",
+            "_comment": "Learning rate",
+            "type": "float",
+            "default": 1e-3,
+            "min": 1e-4,
+            "max": 1,
+            "require": true
+        }
+    ],
+    "advance": [
+        {
+            "url": "./components/optimizer.json"
+        },
+        {
+            "url": "./components/lr_scheduler.json"
+        },
+        {
+            "url": "./components/loss.json"
+        }
+    ]
+}

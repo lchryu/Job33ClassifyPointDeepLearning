@@ -1,0 +1,82 @@
+{
+    "name": "lr_scheduler",
+    "_comment": "",
+    "type": "singleselectlistfunc",
+    "default": "",
+    "stringlist": "Cosine Annealing lr scheduler,Exponential lr scheduler,Cyclic lr scheduler,Cosine Annealing WarmRestarts lr scheduler",
+    "require": false,
+    "Cosine Annealing lr scheduler": {
+        "_comment": "Cosine Annealing lr scheduler ",
+        "params": [
+            {
+                "name": "T_max",
+                "_comment": "",
+                "type": "int",
+                "default": 20,
+                "min": 1,
+                "max": 5,
+                "require": false
+            }
+        ]
+    },
+    "Exponential lr scheduler": {
+        "_comment": "Exponential lr scheduler ",
+        "params": [
+            {
+                "name": "gamma",
+                "_comment": "",
+                "type": "float",
+                "default": 0.9885,
+                "min": 0,
+                "max": 1,
+                "require": false
+            }
+        ]
+    },
+    "Cyclic lr scheduler": {
+        "_comment": "Cyclic lr scheduler ",
+        "params": [
+            {
+                "name": "base_lr",
+                "_comment": "",
+                "type": "float",
+                "default": "",
+                "min": 0,
+                "max": 1,
+                "require": false
+            },
+            {
+                "name": "max_lr",
+                "_comment": "",
+                "type": "float",
+                "default": "",
+                "min": 0,
+                "max": 1,
+                "require": false
+            }
+        ]
+    },
+    "Cosine Annealing WarmRestarts lr scheduler": {
+        "_comment": "Cosine Annealing WarmRestarts lr scheduler ",
+        "params": [
+            {
+                "name": "T_0",
+                "_comment": "",
+                "type": "int",
+                "default": 20,
+                "min": 0,
+                "max": 999,
+                "require": false
+            },
+            {
+                "name": "T_mult",
+                "_comment": "",
+                "type": "int",
+                "default": 2,
+                "min": 0,
+                "max": 10,
+                "require": false
+            }
+        ]
+    }
+}

@@ -1,0 +1,6 @@
+# @package models
+# Minkowski Engine: https://github.com/StanfordVL/MinkowskiEngine/blob/master/examples/minkunet.py
+MinkUNet:
+  class: minkowski.Minkowski_Baseline_Model
+  conv_type: "SPARSE"
+  model_name: "SparseResUNet42"

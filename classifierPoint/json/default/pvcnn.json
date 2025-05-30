@@ -1,0 +1,50 @@
+{
+    "transform": {
+        "train_transform": [
+            {
+                "class": "Crop cubically",
+                "params": {
+                    "c": 100,
+                    "rot_x": 2,
+                    "rot_y": 180,
+                    "rot_z": 180
+                }
+            },
+            {
+                "class": "Statistical Filter",
+                "params": {
+                    "k": 10,
+                    "threshold": 5
+                }
+            }
+        ]
+    },
+    "Model List": {
+        "Model List": {
+            "class": "PVCNN",
+            "params": {}
+        }
+    },
+    "training": {
+        "batch size": 2,
+        "epochs": 300,
+        "lr": 1e-3,
+        "optimizer": {
+            "class": "AdamW",
+            "params": {
+                "weight decay": 1e-3
+            }
+        },
+        "lr_scheduler": {
+            "class": "Cosine Annealing WarmRestarts lr scheduler",
+            "params": {
+                "T_0": 20,
+                "T_mult": 2
+            }
+        },
+        "loss": {
+            "class": "Cross Entropy Loss",
+            "params": {}
+        }
+    }
+}

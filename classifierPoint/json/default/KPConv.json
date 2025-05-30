@@ -1,0 +1,45 @@
+{
+    "transform": {
+        "train_transform": [
+            {
+                "class": "Crop cubically",
+                "params": {
+                    "c": 25,
+                    "rot_x": 2,
+                    "rot_y": 180,
+                    "rot_z": 180
+                }
+            }
+        ]
+    },
+    "Model List": {
+        "Model List": {
+            "class": "KPConv",
+            "params": {
+                "grid size": 0.2
+            }
+        }
+    },
+    "training": {
+        "batch size": 2,
+        "epochs": 300,
+        "lr": 1e-2,
+        "optimizer": {
+            "class": "SGD",
+            "params": {
+                "weight decay": 1e-4,
+                "momentum": 0.9
+            }
+        },
+        "lr_scheduler": {
+            "class": "Cyclic lr scheduler",
+            "params": {
+                "T_max": 20
+            }
+        },
+        "loss": {
+            "class": "Cross Entropy Loss",
+            "params": {}
+        }
+    }
+}

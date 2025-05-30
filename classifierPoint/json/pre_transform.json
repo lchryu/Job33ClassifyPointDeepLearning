@@ -1,0 +1,98 @@
+{
+    "advance": [
+        {
+            "name": "pre_transform",
+            "_comment": "",
+            "type": "multiselectlistfunc",
+            "default": "Voxel Downsample",
+            "stringlist": "Voxel Downsample,XYZ Feature,Statistical Filter",
+            "require": false,
+            "Voxel Downsample": {
+                "_comment": " Clusters points into voxels",
+                "params": [
+                    {
+                        "name": "size",
+                        "_comment": "Size of a voxel (in each dimension)",
+                        "type": "float",
+                        "default": 0.05,
+                        "min": 0.001,
+                        "max": 10,
+                        "require": false
+                    },
+                    {
+                        "name": "mean",
+                        "_comment": "If true , all the points and their features within a cell will be averaged .If false, one random points per cell will be selected with its associated features",
+                        "type": "bool",
+                        "default": false,
+                        "min": "",
+                        "max": "",
+                        "require": false
+                    }
+                ]
+            },
+            "Statistical Filter": {
+                "_comment": " Statistical Outlier Removal",
+                "params": [
+                    {
+                        "name": "k",
+                        "_comment": " k nearest neighbors",
+                        "type": "int",
+                        "default": 10,
+                        "min": 5,
+                        "max": 100,
+                        "require": false
+                    },
+                    {
+                        "name": "threshold",
+                        "_comment": "std threshold",
+                        "type": "float",
+                        "default": 5.0,
+                        "min": 1.0,
+                        "max": 10.0,
+                        "require": false
+                    }
+                ]
+            },
+            "XYZ Feature": {
+                "_comment": "Add the X, Y and Z as a feature named xyz",
+                "params": [
+                    {
+                        "name": "add_x",
+                        "_comment": "whether we add the x position or not",
+                        "type": "bool",
+                        "default": false,
+                        "min": "",
+                        "max": "",
+                        "require": false
+                    },
+                    {
+                        "name": "add_y",
+                        "_comment": "whether we add the y position or not ",
+                        "type": "bool",
+                        "default": false,
+                        "min": "",
+                        "max": "",
+                        "require": false
+                    },
+                    {
+                        "name": "add_z",
+                        "_comment": "whether we add the z position or not ",
+                        "type": "bool",
+                        "default": false,
+                        "min": "",
+                        "max": "",
+                        "require": false
+                    }
+                ]
+            },
+            "RGBFeature": {
+                "_comment": " Add RGB as model input feature,if data has RGB feature",
+                "params": []
+            },
+            "IntensityFeature": {
+                "_comment": " Add Intensity as model input feature,if data has Intensity feature",
+                "params": []
+            }
+        }
+    ]
+}

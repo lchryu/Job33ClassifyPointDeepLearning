@@ -1,0 +1,44 @@
+version: 1
+formatters:
+  metrics:
+    format: "[%(asctime)s] - %(message)s"
+  basic:
+    format: "[%(asctime)s] - %(message)s"
+  debug:
+    format: "[%(asctime)s][%(name)s][%(levelname)s] - %(message)s"
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: DEBUG
+    formatter: debug
+    stream: ext://sys.stdout
+  info_file_handler:
+    class: logging.FileHandler
+    level: INFO
+    formatter: basic
+    filename: info.log
+    encoding: utf8
+  debug_file_handler:
+    class: logging.FileHandler
+    level: DEBUG
+    formatter: debug
+    filename: info.log
+    encoding: utf8
+  metrics_file_handler:
+    level: INFO
+    class: logging.FileHandler
+    formatter: metrics
+    filename: metrics.log
+root:
+  level: INFO
+  handlers: [debug_file_handler]
+  #info_file_handler
+loggers:
+  debug:
+    level: DEBUG
+    handlers: [console, debug_file_handler]
+  metrics:
+    level: INFO
+    handlers: [metrics_file_handler]
+
+disable_existing_loggers: False

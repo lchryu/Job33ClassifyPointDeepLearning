@@ -1,0 +1,49 @@
+{
+    "base": [
+        {
+            "name": "Split Function",
+            "_comment": "for big data",
+            "type": "singleselectlistfunc",
+            "default": "Tile by Point Number",
+            "stringlist": "Tile by Range,Tile by Point Number",
+            "require": true,
+            "Tile by Range": {
+                "_comment": "The Tile by Range Filter breaks a point cloud into square tiles of a specified size.",
+                "params": [
+                    {
+                        "name": "length",
+                        "_comment": "Length of the sides of the tiles that are created to hold points. [Default: 1000]",
+                        "type": "float",
+                        "default": 100,
+                        "min": 1,
+                        "max": 10000,
+                        "require": true
+                    },
+                    {
+                        "name": "buffer",
+                        "_comment": "Amount of overlap to include in each tile. This buffer is added onto length in both the x and the y direction",
+                        "type": "float",
+                        "default": 0,
+                        "min": 0,
+                        "max": 10000,
+                        "require": false
+                    }
+                ]
+            },
+            "Tile by Point Number": {
+                "_comment": " The Tile by Point Number Filter takes a single large point cloud and converts it into a set of smaller clouds, or chips. The chips are all spatially contiguous and non-overlapping, so the result is a an irregular tiling of the input data.",
+                "params": [
+                    {
+                        "name": "capacity",          
+                        "_comment": "How many points to fit into each chip. The number of points in each chip will not exceed this value, and will sometimes be less than it",
+                        "type": "int",
+                        "default": 100000,
+                        "min": 100,
+                        "max": 10000000,
+                        "require": true
+                    }
+                ]
+            }
+        }
+    ]
+}

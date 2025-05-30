@@ -1,0 +1,28 @@
+{
+    "save_path": "./checkpoints",  
+    "train_path": "./data/train",
+    "val_path": "./data/val",
+    "task_id": "task_001",
+    "usegpu": true,
+    "model": {
+        "model": {
+            "class": "MyModel",
+            "params": {
+                "in_channels": 3,
+                "num_classes": 10
+            }
+        }
+    },
+    "training": {
+        "batch_size": 32,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "loss": {
+            "name": "CrossEntropyLoss"
+        }
+    },
+    "class_remap": {
+        "0": 0,
+        "1": 1
+    }
+}

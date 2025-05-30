@@ -1,0 +1,25 @@
+{
+    "task_id": "9138dac0-f389-4782-be58-bfb1f9674611",
+    "train_path": "F:\\THI\\data\\Train",
+    "val_path": "F:\\THI\\data\\Test",
+    "task_description": "deeplearning\\ test", 
+    "usegpu": true,
+    "class_remap": {},
+    "transform": {
+        "Split Function": [{"class": "Tile by Point Number", "params": {"capacity": 800000}}],
+        "pre_transform": [{"class": "OnesFeature"}, {"class": "Voxel Downsample", "params": {"size": 0.1, "mean": true}}],
+        "train_transform": [{"class": "RandomTranslation", "params": {"delta_min": 0, "delta_max": 0.3}}, {"class": "Crop cubically","params": {"c": 10, "rot_x": 2, "rot_y": 2, "rot_z": 180}}]
+    },
+    "model": {"model": {"class": "DRINet", "params": {}}},
+    "training": {
+        "batch size": 1,
+        "weight name": "latest",
+        "epochs": 2,
+        "lr": 0.0001,
+        "optimizer": {"class": "AdamW", "params": {"weight decay": 0.0001}},
+        "lr_scheduler": {"class": "Cosine Annealing WarmRestarts lr scheduler", "params": {"T_0": 20, "T_mult": 2}},
+        "loss": {"class": "LovaszSoftmaxLoss", "params": {}}
+    },
+    "checkpoint_dir": "",
+    "save_path": "F:\\THI\\data\\Checkpoints"
+}

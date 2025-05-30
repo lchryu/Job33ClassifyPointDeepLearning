@@ -1,0 +1,42 @@
+{
+    "base": [
+        {
+            "name": "Model List",
+            "_comment": "",
+            "type": "singleselectlistfunc",
+            "default": "PVCNN",
+            "stringlist": "DRINet,SPVNAS,PVCNN,KPConv,MinkUNet",
+            "require": true,
+            "DRINet": {
+                "_comment": "DRINet",
+                "params": []
+            },
+            "SPVNAS": {
+                "_comment": "SPVNAS",
+                "params": []
+            },
+            "PVCNN": {
+                "_comment": "PVCNN",
+                "params": []
+            },
+            "KPConv": {
+                "_comment": "KPConv",
+                "params": [
+                    {
+                        "name": "grid size",
+                        "_comment": "in grid size for downsample",
+                        "type": "float",
+                        "default": 0.2,
+                        "min": 0.001,
+                        "max": 10,
+                        "require": false
+                    }
+                ]
+            },
+            "MinkUNet": {
+                "_comment": "MinkUNet",
+                "params": []
+            }
+        }
+    ]
+}

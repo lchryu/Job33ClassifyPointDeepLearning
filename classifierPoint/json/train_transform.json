@@ -1,0 +1,167 @@
+{
+    "advance": [
+        {
+            "name": "train_transform",
+            "_comment": "",
+            "type": "multiselectlistfunc",
+            "default": "",
+            "stringlist": "Voxel Downsample, Crop cubically, Ones Feature, XYZ Feature, Random Rotation",
+            "require": false,
+            "Voxel Downsample": {
+                "_comment": " Clusters points into voxels",
+                "params": [
+                    {
+                        "name": "size",
+                        "_comment": "Size of a voxel (in each dimension)",
+                        "type": "float",
+                        "default": 0.1,
+                        "min": 0.001,
+                        "max": 10,
+                        "require": false
+                    },
+                    {
+                        "name": "mean",
+                        "_comment": "If true , all the points and their features within a cell will be averaged .If false, one random points per cell will be selected with its associated features",
+                        "type": "bool",
+                        "default": false,
+                        "min": "",
+                        "max": "",
+                        "require": false
+                    }
+                ]
+            },
+            "Crop cubically": {
+                "_comment": "Crop cubically the point cloud apply rotation for Crop data",
+                "params": [
+                    {
+                        "name": "c",
+                        "_comment": "half size of the cube",
+                        "type": "float",
+                        "default": 10,
+                        "min": 0.001,
+                        "max": 10000,
+                        "require": false
+                    },
+                    {
+                        "name": "rot_x",
+                        "_comment": "rotation of the cube around x axis",
+                        "type": "float",
+                        "default": 180,
+                        "min": "0",
+                        "max": "180",
+                        "require": false
+                    },
+                    {
+                        "name": "rot_y",
+                        "_comment": "rotation of the cube around y axis",
+                        "type": "float",
+                        "default": 180,
+                        "min": "0",
+                        "max": "180",
+                        "require": false
+                    },
+                    {
+                        "name": "rot_z",
+                        "_comment": "rotation of the cube around z axis",
+                        "type": "float",
+                        "default": 180,
+                        "min": "0",
+                        "max": "180",
+                        "require": false
+                    }
+                ]
+            },
+            "Ones Feature": {
+                "_comment": "Add ones data to feature",
+                "params": []
+            },
+            "XYZ Feature": {
+                "_comment": "Add the X, Y and Z as a feature named xyz",
+                "params": [
+                    {
+                        "name": "x",
+                        "_comment": "whether we add the x position or not",
+                        "type": "bool",
+                        "default": true,
+                        "min": "",
+                        "max": "",
+                        "require": false
+                    },
+                    {
+                        "name": "y",
+                        "_comment": "whether we add the y position or not ",
+                        "type": "bool",
+                        "default": true,
+                        "min": "",
+                        "max": "",
+                        "require": false
+                    },
+                    {
+                        "name": "z",
+                        "_comment": "whether we add the z position or not ",
+                        "type": "bool",
+                        "default": true,
+                        "min": "",
+                        "max": "",
+                        "require": false
+                    }
+                ]
+            },
+            "Random Noise": {
+                "_comment": "Simple isotropic additive gaussian noise (Jitter)",
+                "params": [
+                    {
+                        "name": "sigma",
+                        "_comment": "Variance of the noise",
+                        "type": "float",
+                        "default": 0.01,
+                        "min": "",
+                        "max": "",
+                        "require": false
+                    },
+                    {
+                        "name": "clip",
+                        "_comment": "Maximum amplitude of the noise",
+                        "type": "float",
+                        "default": 0.05,
+                        "min": "",
+                        "max": "",
+                        "require": false
+                    }
+                ]
+            },
+            "Random Rotation": {
+                "_comment": " Rotate pointcloud with random angles along x, y, z axis",
+                "params": [
+                    {
+                        "name": "rot_x",
+                        "_comment": "rotation of the cube around x axis",
+                        "type": "float",
+                        "default": 180,
+                        "min": "0",
+                        "max": "180",
+                        "require": false
+                    },
+                    {
+                        "name": "rot_y",
+                        "_comment": "rotation of the cube around y axis",
+                        "type": "float",
+                        "default": 180,
+                        "min": "0",
+                        "max": "180",
+                        "require": false
+                    },
+                    {
+                        "name": "rot_z",
+                        "_comment": "rotation of the cube around z axis",
+                        "type": "float",
+                        "default": 180,
+                        "min": "0",
+                        "max": "180",
+                        "require": false
+                    }
+                ]
+            }
+        }
+    ]
+}

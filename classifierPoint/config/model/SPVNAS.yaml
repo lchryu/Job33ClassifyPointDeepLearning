@@ -1,0 +1,4 @@
+SPVNAS:
+  class: spvnas.SPVNAS
+  cr: 0.5
+  conv_type: "SPARSE"

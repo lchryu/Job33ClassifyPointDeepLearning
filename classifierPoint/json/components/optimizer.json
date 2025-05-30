@@ -1,0 +1,59 @@
+{
+    "name": "optimizer",
+    "_comment": "",
+    "type": "singleselectlistfunc",
+    "default": "SGD",
+    "stringlist": "SGD,Adam,AdamW",
+    "require": true,
+    "SGD": {
+        "_comment": "SGD ",
+        "params": [
+            {
+                "name": "weight decay",
+                "_comment": "",
+                "type": "float",
+                "default": 1e-5,
+                "min": 0.000001,
+                "max": 0.999,
+                "require": false
+            },
+            {
+                "name": "momentum",
+                "_comment": "",
+                "type": "float",
+                "default": 0.9,
+                "min": 0,
+                "max": 0.9999,
+                "require": false
+            }
+        ]
+    },
+    "Adam": {
+        "_comment": "Adam",
+        "params": [
+            {
+                "name": "weight decay",
+                "_comment": "",
+                "type": "float",
+                "default": 1e-5,
+                "min": 0,
+                "max": 0.999,
+                "require": false
+            }
+        ]
+    },
+    "AdamW": {
+        "_comment": "AdamW",
+        "params": [
+            {
+                "name": "weight decay",
+                "_comment": "",
+                "type": "float",
+                "default": 1e-5,
+                "min": 0,
+                "max": 0.999,
+                "require": false
+            }
+        ]
+    }
+}

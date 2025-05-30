@@ -1,0 +1,149 @@
+[2025-05-30 11:41:02,900] - Data has been processed,skip
+[2025-05-30 11:41:02,941] - Data has been processed,skip
+[2025-05-30 11:53:27,893] - Epoch: 1
+[2025-05-30 11:53:27,893] -     train_loss_seg = 1.4882712328975851
+[2025-05-30 11:53:27,893] - ==================================================
+[2025-05-30 11:53:27,893] - Train Processing 2/10
+[2025-05-30 12:04:11,371] - Epoch: 2
+[2025-05-30 12:04:11,371] -     train_loss_seg = 1.1122997518290179
+[2025-05-30 12:04:11,371] - ==================================================
+[2025-05-30 12:04:11,372] - Train Processing 3/10
+[2025-05-30 12:14:46,534] - Epoch: 3
+[2025-05-30 12:14:46,534] -     train_loss_seg = 0.8878305595706809
+[2025-05-30 12:14:46,534] - ==================================================
+[2025-05-30 12:14:46,534] - Train Processing 4/10
+[2025-05-30 12:25:28,003] - Epoch: 4
+[2025-05-30 12:25:28,003] -     train_loss_seg = 0.8613596682182764
+[2025-05-30 12:25:28,003] - ==================================================
+[2025-05-30 12:25:28,003] - Train Processing 5/10
+[2025-05-30 12:35:58,131] - Epoch: 5
+[2025-05-30 12:35:58,131] -     train_loss_seg = 0.7910086673769081
+[2025-05-30 12:35:58,131] - ==================================================
+[2025-05-30 12:35:58,131] - Train Processing 6/10
+[2025-05-30 12:46:46,742] - Epoch: 6
+[2025-05-30 12:46:46,742] -     train_loss_seg = 0.7870551875030452
+[2025-05-30 12:46:46,742] - ==================================================
+[2025-05-30 12:46:46,743] - Train Processing 7/10
+[2025-05-30 12:57:45,754] - Epoch: 7
+[2025-05-30 12:57:45,754] -     train_loss_seg = 0.7564404980025509
+[2025-05-30 12:57:45,754] - ==================================================
+[2025-05-30 12:57:45,754] - Train Processing 8/10
+[2025-05-30 13:08:38,226] - Epoch: 8
+[2025-05-30 13:08:38,226] -     train_loss_seg = 0.7518111713907936
+[2025-05-30 13:08:38,226] - ==================================================
+[2025-05-30 13:08:38,226] - Train Processing 9/10
+[2025-05-30 13:19:16,052] - Epoch: 9
+[2025-05-30 13:19:16,052] -     train_loss_seg = 0.6620260151611133
+[2025-05-30 13:19:16,052] - ==================================================
+[2025-05-30 13:19:16,052] - Train Processing 10/10
+[2025-05-30 13:28:46,284] - Test Results:
+[2025-05-30 13:28:46,284] - ==================================================
+[2025-05-30 13:29:21,870] - Processed file 1-2(170_171).LiData, points number =15814832/15814832
+[2025-05-30 13:29:31,554] - Processed file 1-2(185_186).LiData, points number =5144150/20569108
+[2025-05-30 13:29:33,034] - Processed file 1-2(185_186).LiData, points number =633801/20569108
+[2025-05-30 13:29:33,942] - Processed file 1-2(185_186).LiData, points number =353284/20569108
+[2025-05-30 13:29:54,877] - Processed file 1-2(185_186).LiData, points number =14437876/20569108
+[2025-05-30 13:30:19,686] - Processed file 1-2(196_197).LiData, points number =11611958/11611958
+[2025-05-30 13:30:22,984] - Processed file 1-2(1_2).LiData, points number =1926529/26286802
+[2025-05-30 13:30:35,307] - Processed file 1-2(1_2).LiData, points number =11100671/26286802
+[2025-05-30 13:30:48,477] - Processed file 1-2(1_2).LiData, points number =11008898/26286802
+[2025-05-30 13:30:52,560] - Processed file 1-2(1_2).LiData, points number =2250708/26286802
+[2025-05-30 13:31:20,163] - Processed file 1-2(204_205).LiData, points number =13483389/13483389
+[2025-05-30 13:31:53,784] - Processed file 1-2(210_211).LiData, points number =19134193/19134193
+[2025-05-30 13:32:25,518] - Processed file 1-2(218_219).LiData, points number =20690827/33429724
+[2025-05-30 13:32:27,131] - Processed file 1-2(218_219).LiData, points number =515905/33429724
+[2025-05-30 13:32:28,507] - Processed file 1-2(218_219).LiData, points number =614439/33429724
+[2025-05-30 13:32:49,530] - Processed file 1-2(218_219).LiData, points number =11608559/33429724
+[2025-05-30 13:33:17,579] - Processed file 1-2(224_225).LiData, points number =12869218/12869218
+[2025-05-30 13:33:40,157] - Processed file 1-2(228_229).LiData, points number =14286661/23137790
+[2025-05-30 13:33:41,353] - Processed file 1-2(228_229).LiData, points number =324443/23137790
+[2025-05-30 13:33:42,424] - Processed file 1-2(228_229).LiData, points number =412987/23137790
+[2025-05-30 13:33:56,166] - Processed file 1-2(228_229).LiData, points number =8113706/23137790
+[2025-05-30 13:34:09,849] - Processed file 1-2(242_244).LiData, points number =7829624/20555758
+[2025-05-30 13:34:11,403] - Processed file 1-2(242_244).LiData, points number =889445/20555758
+[2025-05-30 13:34:12,781] - Processed file 1-2(242_244).LiData, points number =921929/20555758
+[2025-05-30 13:34:31,338] - Processed file 1-2(242_244).LiData, points number =10914771/20555758
+[2025-05-30 13:34:59,088] - Processed file 1-2(41_42).LiData, points number =16661809/16661809
+[2025-05-30 13:35:26,281] - Processed file 1-2(A500-1_A500-2).LiData, points number =19140415/19140415
+[2025-05-30 13:35:47,508] - Processed file 1-2(CMBL 11_CMBL 12).LiData, points number =13864516/13864516
+[2025-05-30 13:36:03,337] - Processed file 1-2(CMBL 21_CMBL 22).LiData, points number =8848126/8848126
+[2025-05-30 13:36:29,564] - Processed file 1-2(CMBL 2_CMBL 3).LiData, points number =18148951/18148951
+[2025-05-30 13:36:51,533] - Processed file 1-2(DH-MT 117_DH-MT 118).LiData, points number =10551723/10551723
+[2025-05-30 13:37:17,469] - Processed file 1-2(DH-MT 161_DH-MT 160).LiData, points number =17259407/17259407
+[2025-05-30 13:37:46,004] - Processed file 1-2(DH-MT233_DH-MT234).LiData, points number =16848898/16848898
+[2025-05-30 13:38:07,867] - Processed file 1-2(DHMT 31_DHMT 32).LiData, points number =13664101/13664101
+[2025-05-30 13:38:36,281] - Processed file 1-2(DHMT 50_DHMT 51).LiData, points number =15372867/15372867
+[2025-05-30 13:39:08,624] - Processed file 1-2(DHMT 70_DHMT71).LiData, points number =18960034/18960034
+[2025-05-30 13:39:10,402] - Processed file 1-2(DHMT 79_DHMT 80).LiData, points number =385703/25803365
+[2025-05-30 13:39:29,940] - Processed file 1-2(DHMT 79_DHMT 80).LiData, points number =11426144/25803365
+[2025-05-30 13:39:49,112] - Processed file 1-2(DHMT 79_DHMT 80).LiData, points number =13581745/25803365
+[2025-05-30 13:39:51,613] - Processed file 1-2(DHMT 79_DHMT 80).LiData, points number =409777/25803365
+[2025-05-30 13:40:21,553] - Processed file 1-2(DHMT142_DHMT143).LiData, points number =17422713/17422713
+[2025-05-30 13:40:24,469] - Processed file 1-2(DLTD 1037_DLTD 1036).LiData, points number =1454911/30750161
+[2025-05-30 13:40:44,234] - Processed file 1-2(DLTD 1037_DLTD 1036).LiData, points number =14717702/30750161
+[2025-05-30 13:41:02,949] - Processed file 1-2(DLTD 1037_DLTD 1036).LiData, points number =12181276/30750161
+[2025-05-30 13:41:07,834] - Processed file 1-2(DLTD 1037_DLTD 1036).LiData, points number =2396286/30750161
+[2025-05-30 13:41:13,563] - Processed file 1-2(PLOM 164_PLOM 165).LiData, points number =3713828/37980913
+[2025-05-30 13:41:31,586] - Processed file 1-2(PLOM 164_PLOM 165).LiData, points number =15927215/37980913
+[2025-05-30 13:41:42,655] - Processed file 1-2(PLOM 164_PLOM 165).LiData, points number =8045753/37980913
+[2025-05-30 13:41:54,933] - Processed file 1-2(PLOM 164_PLOM 165).LiData, points number =10294121/37980913
+[2025-05-30 13:42:20,525] - Processed file 1-2(PLOM 171_PLOM 172).LiData, points number =13604353/13604353
+[2025-05-30 13:42:44,599] - Processed file 1-2(PLOM 89_PLOM 90).LiData, points number =14683344/14683344
+[2025-05-30 13:42:46,201] - Processed file 1-2(SMTD 46_SMTD 47).LiData, points number =494351/21419767
+[2025-05-30 13:42:55,428] - Processed file 1-2(SMTD 46_SMTD 47).LiData, points number =4599277/21419767
+[2025-05-30 13:43:18,078] - Processed file 1-2(SMTD 46_SMTD 47).LiData, points number =15568273/21419767
+[2025-05-30 13:43:20,310] - Processed file 1-2(SMTD 46_SMTD 47).LiData, points number =757868/21419767
+[2025-05-30 13:43:24,600] - Processed file 1-2(SMTD 54_SMTD 55).LiData, points number =1886620/25841331
+[2025-05-30 13:43:44,310] - Processed file 1-2(SMTD 54_SMTD 55).LiData, points number =12067913/25841331
+[2025-05-30 13:43:58,653] - Processed file 1-2(SMTD 54_SMTD 55).LiData, points number =10481585/25841331
+[2025-05-30 13:44:01,775] - Processed file 1-2(SMTD 54_SMTD 55).LiData, points number =1405215/25841331
+[2025-05-30 13:44:25,486] - Processed file 10-11(179_180).LiData, points number =13754240/13754240
+[2025-05-30 13:44:49,783] - Processed file 10-11(CMBL 20_CMBL 21).LiData, points number =18933537/18933537
+[2025-05-30 13:45:05,198] - Processed file 10-11(CMBL 30_CMBL 31).LiData, points number =11330951/11330951
+[2025-05-30 13:45:25,935] - Processed file 10-11(DHMT 40_11).LiData, points number =12361875/12361875
+[2025-05-30 13:45:46,887] - Processed file 10-11(DHMT 59_DHMT 60).LiData, points number =11066613/11066613
+[2025-05-30 13:46:11,181] - Processed file 10-11(DHMT 88_DHMT 89).LiData, points number =13519632/13519632
+[2025-05-30 13:46:35,802] - Processed file 10-11(DHMT151_DHMT152).LiData, points number =12417100/12417100
+[2025-05-30 13:46:57,415] - Processed file 11-12(CMBL 21_CMBL 22).LiData, points number =15043207/15043207
+[2025-05-30 13:47:21,501] - Processed file 11-12(DHMT 89_DHMT 90).LiData, points number =12689695/12689695
+[2025-05-30 13:47:46,088] - Processed file 2-3(171_172).LiData, points number =13824723/13824723
+[2025-05-30 13:48:16,716] - Processed file 2-3(186_187).LiData, points number =18798374/18798374
+[2025-05-30 13:48:43,455] - Processed file 2-3(197_198).LiData, points number =13906630/13906630
+[2025-05-30 13:49:08,112] - Processed file 2-3(205_206).LiData, points number =13057701/13057701
+[2025-05-30 13:49:37,625] - Processed file 2-3(211_212).LiData, points number =13784910/13784910
+[2025-05-30 13:50:00,761] - Processed file 2-3(219_220).LiData, points number =13843533/30519369
+[2025-05-30 13:50:02,351] - Processed file 2-3(219_220).LiData, points number =555942/30519369
+[2025-05-30 13:50:03,698] - Processed file 2-3(219_220).LiData, points number =596028/30519369
+[2025-05-30 13:50:28,610] - Processed file 2-3(219_220).LiData, points number =15523867/30519369
+[2025-05-30 13:50:47,376] - Processed file 2-3(225_226).LiData, points number =10067329/10067329
+[2025-05-30 13:51:14,025] - Processed file 2-3(229_230).LiData, points number =14924139/14924139
+[2025-05-30 13:51:34,456] - Processed file 2-3(244_243).LiData, points number =10794910/10794910
+[2025-05-30 13:51:37,982] - Processed file 2-3(2_3).LiData, points number =1686763/26506104
+[2025-05-30 13:51:56,711] - Processed file 2-3(2_3).LiData, points number =13663844/26506104
+[2025-05-30 13:52:10,912] - Processed file 2-3(2_3).LiData, points number =9425977/26506104
+[2025-05-30 13:52:14,882] - Processed file 2-3(2_3).LiData, points number =1729524/26506104
+[2025-05-30 13:52:41,575] - Processed file 2-3(42_43).LiData, points number =14298926/14298926
+[2025-05-30 13:53:09,716] - Processed file 2-3(A500-2_A500-3).LiData, points number =16492438/16492438
+[2025-05-30 13:53:27,669] - Processed file 2-3(CMBL 12_CMBL 13).LiData, points number =11444429/11444429
+[2025-05-30 13:53:35,034] - Processed file 2-3(CMBL 22_CMBL 23).LiData, points number =3936680/3936680
+[2025-05-30 13:53:41,979] - Processed file 2-3(CMBL 3_CMBL 4).LiData, points number =4945193/25840142
+[2025-05-30 13:53:43,107] - Processed file 2-3(CMBL 3_CMBL 4).LiData, points number =668444/25840142
+[2025-05-30 13:53:44,080] - Processed file 2-3(CMBL 3_CMBL 4).LiData, points number =581824/25840142
+[2025-05-30 13:54:04,368] - Processed file 2-3(CMBL 3_CMBL 4).LiData, points number =19644693/25840142
+[2025-05-30 13:54:33,563] - Processed file 2-3(DH-MT 118_DH-MT 119).LiData, points number =13264970/13264970
+[2025-05-30 13:54:53,862] - Processed file 2-3(DH-MT 160_DH-MT 159).LiData, points number =11379738/11379738
+[2025-05-30 13:55:19,145] - Processed file 2-3(DH-MT234_DH-MT235).LiData, points number =13401553/13401553
+[2025-05-30 13:55:41,342] - Processed file 2-3(DHMT 32_DHMT 33).LiData, points number =13123293/13123293
+[2025-05-30 13:56:02,125] - Processed file 2-3(DHMT 51_DHMT 52).LiData, points number =11585610/11585610
+[2025-05-30 13:56:31,396] - Processed file 2-3(DHMT 80_DHMT 81).LiData, points number =17664622/17664622
+[2025-05-30 13:56:59,932] - Processed file 2-3(DHMT143_DHMT144).LiData, points number =16763551/16763551
+[2025-05-30 13:57:23,138] - Processed file 2-3(DHMT71_DHMT 72).LiData, points number =12916530/12916530
+[2025-05-30 13:57:26,999] - Processed file 2-3(DLTD 1036_DLTD 1035).LiData, points number =1963850/30645347
+[2025-05-30 13:57:50,661] - Processed file 2-3(DLTD 1036_DLTD 1035).LiData, points number =13673083/30645347
+[2025-05-30 13:58:10,895] - Processed file 2-3(DLTD 1036_DLTD 1035).LiData, points number =12410832/30645347
+[2025-05-30 13:58:16,341] - Processed file 2-3(DLTD 1036_DLTD 1035).LiData, points number =2597601/30645347
+[2025-05-30 13:58:40,580] - Processed file 9-10(DH-MT 153_DH-MT 152).LiData, points number =13460242/13460242
+[2025-05-30 13:59:02,825] - Processed file 9-10(DHMT 58_DHMT 59).LiData, points number =13590056/13590056
+[2025-05-30 13:59:32,010] - Processed file 9-10(DHMT 78_DHMT 79).LiData, points number =17472080/17472080
+[2025-05-30 13:59:54,981] - Processed file 9-10(DHMT 87_DHMT 88).LiData, points number =12856250/12856250
+[2025-05-30 14:00:25,048] - Processed file 9-10(DHMT150_DHMT151).LiData, points number =14732440/14732440

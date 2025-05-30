@@ -1,0 +1,29 @@
+{
+    "name": "loss",
+    "_comment": "",
+    "type": "singleselectlistfunc",
+    "default": "Cross Entropy Loss",
+    "stringlist": "Cross Entropy Loss,Focal Loss",
+    "require": true,
+    "Cross Entropy Loss": {
+        "_comment": "cross entropy for multi class",
+        "params": [
+            {
+                "name": "label smoothing",
+                "_comment": "A float in [0.0, 1.0]. Specifies the amountof smoothing when computing the loss, where 0.0 means no smoothing. The targets become a mixture of the original ground truth and a uniform distribution as described in `Rethinking the Inception Architecture for Computer Vision",
+                "type": "float",
+                "default": "0",
+                "min": "0",
+                "max": "1.0",
+                "require": false
+            }
+        ]
+    },
+    "Focal Loss": {
+        "_comment": " reshaping the standard cross entropy loss such that it down-weights the loss assigned to well-classified examples.",
+        "params": [
+            {},
+            {}
+        ]
+    }
+}

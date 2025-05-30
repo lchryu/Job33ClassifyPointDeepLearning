@@ -1,0 +1,23 @@
+{
+    "base": [
+        {
+            "name": "batch size",
+            "_comment": "batch size for evaluation ",
+            "type": "int",
+            "default": 2,
+            "min": 1,
+            "max": 32,
+            "require": true
+        }
+    ],
+    "advance": [
+        {
+            "name": "weight name",
+            "_comment": "save model for best miou/macc/acc or latest",
+            "type": "singleselect",
+            "default": "latest",
+            "stringlist": "miou,macc,acc,latest",
+            "require": false
+        }
+    ]
+}

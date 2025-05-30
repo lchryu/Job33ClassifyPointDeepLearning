@@ -1,0 +1,4 @@
+PVCNN:
+  class: pvcnn.PVCNN
+  cr: 0.5
+  conv_type: "SPARSE"

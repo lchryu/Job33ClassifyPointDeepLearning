@@ -1,0 +1,6 @@
+DRINet:
+  class: drinet.DRINet
+  cr: 0.75
+  conv_type: "SPARSE"
+  block_num: 4
+  scale_list: [2, 4, 8, 16]
